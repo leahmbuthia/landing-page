@@ -5,6 +5,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+
 }
 
 /* HEADER */
@@ -14,8 +15,10 @@ header {
 }
 
 /* NAVIGATION */
-#logo {
-  font-size: 24px;
+.h3 {
+  font-size: 12px;
+  display: flex;
+  font-family: "Satisfy", cursive;
   font-weight: 900;
   color: #F9FAF8;
 }
@@ -23,17 +26,19 @@ header {
 .nav {
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
+
 }
 
 .nav ul {
   list-style-type: none;
+  text-decoration: none;
   display: flex;
   gap: 1.5em;
 }
 
-.secondary,
-a:link {
+
+.a{
   font-size: 18px;
   color: #E5E7EB;
   text-decoration: none;
@@ -62,12 +67,13 @@ a:link {
 .hero {
   color: #F9FAF8;
   font-weight: 900;
-  font-size: 48px;
+  font-size: 24px;
+  font-family: "Bodoni Moda", serif;
 }
 
 button {
   padding: 7px 1em;
-  width: 120px;
+  width: 150px;
   background-color: #3882F6;
   border-radius: 8px;
 }
@@ -77,12 +83,14 @@ button {
 }
 
 .image {
-  background-color: gray;
+
   display: flex;
   align-items: center;
   justify-content: center;
   height: 215px;
+  border-radius: 5px;
 }
+
 
 /* CARD SECTION */
 main {
@@ -107,21 +115,22 @@ main h2 {
   margin: 3em 0 6em 0;
 }
 
+
 .card {
   text-align: center;
-  max-width: 200px;
+  max-width: 300px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: .5em;
+  gap: 3em;
 }
 
-.square {
+/*.square {
   border: 4px solid #3882F6;
   border-radius: 20px;
   width: 160px;
   height: 160px;
-}
+}*/
 
 /* QUOTE */
 .quote {
@@ -140,7 +149,7 @@ main h2 {
 }
 
 .quote em {
-  font-size: 36px;
+  font-size: 18px;
   font-weight: 100;
   color: #1f2937;
 }
